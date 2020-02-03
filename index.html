@@ -2,9 +2,11 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+        <script src="main.js"></script>
     </head>
     <body>
-        <h1>Contact Me</h1>\
+        <h1>Contact Me</h1>
         <form action="">
             <label>
                 E-mail
@@ -16,9 +18,14 @@
             </label>
             <label>
                 Message
-                <textarea></textarea>
+                <textarea class="message"></textarea>
             </label>
-            <button type="submit">Send</button>
+            <div class="status">
+
+            </div>
+            <button type="submit" class="submit">
+                Send
+            </button>
         </form>
     </body>
 </html>
